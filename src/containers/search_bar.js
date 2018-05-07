@@ -7,7 +7,6 @@ export default class SearchBar extends Component {
 
     // bind the context for onInputChange
     this.onInputChange = this.onInputChange.bind(this)
-    this.onFormSubmit = this.onFormSubmit.bind(this)
   }
 
   onInputChange(event) {
